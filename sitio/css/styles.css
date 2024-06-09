@@ -1,0 +1,93 @@
+body {
+    background-color: #fbe9e7; /* Fondo rosao */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* letra */
+}
+
+h2 {
+    color: #d32f2f; /* Rojo vibra */
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #d32f2f; /* rojo vibra */
+}
+
+input,
+select,
+button {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #d32f2f; /* bordes rojos */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+input:focus,
+select:focus,
+button:focus {
+    outline: none;
+    border-color: #ff7043; /* naranja brilloso */
+}
+
+button {
+    background-color: #d32f2f; /* fondito */
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff7043; /* naranja al pasar el raton */
+}
+
+.text-danger {
+    margin-top: 5px;
+    font-size: 0.875em;
+    color: #d32f2f; /* rojazo */
+}
+
+.container {
+    background-color: #ffffff; /* fondo fome */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* negrito suave  */
+}
+
+.list-group-item {
+    background-color: #ffe0b2; /* fondo naranja el suave */
+    border-color: #d32f2f; /* bordes */
+    color: #d32f2f; /* textu */
+}
+ 
+/* DESTINO CSS */
+
+body {
+    background-color: #fbe9e7; /* fondazo */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* letra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    color: #d32f2f; /* rojazo */
+    font-size: 2.5em; /* porte letra */
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #ffffff; /* fondo fome */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* negro suav */
+    text-align: center;
+}
+
+.text-center {
+    color: #d32f2f; /* rojazo */
+}
